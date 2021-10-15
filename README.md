@@ -10,11 +10,11 @@ Anywhere:
 create_pyc_module <module_name>
 $EDITOR <module_name>/<module_name>_src.cpp
 ```
-Then, import your c++ functions or classes and wrap them according to [boost::python API](https://www.boost.org/doc/libs/1_76_0/libs/python/doc/html/tutorial/index.html) or a small the most necessary part in `small_guide.md`. 
+Then, import your c++ functions or classes and wrap them according to [boost::python API](https://www.boost.org/doc/libs/1_76_0/libs/python/doc/html/tutorial/index.html) or a small the most necessary part in [syntax_guide](https://github.com/RodkinIvan/pyc/blob/master/syntax_guide.md). 
 
 Then, compile it, using:
 ```shell
-compile_pyc_module <module_name>
+compile_pyc_module <module_name>/home/ivan/CLionProjects/pyc
 ```
 This command will create the `<module_name>.so` file, which acts like real python module
 ## Usage

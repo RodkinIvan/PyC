@@ -1,6 +1,6 @@
 # The small syntax guide
 ## Functions
-If the function has the basic in and out, you just need to include it into your `<module_name>_src.cpp` and make you `BOOST_PYTHON_MODULE` like this:
+If the function has the basic in and out, you just need to include it into your `<module_name>_src.cpp` and make your `BOOST_PYTHON_MODULE` like this:
 ```c++
 BOOST_PYTHON_MODULE(<module_name>){
     py::def("<function_in_python_name>", &<function_in_c++_name>);
