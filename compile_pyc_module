@@ -1,0 +1,1 @@
+g++ -shared -fpic -I /usr/include/python3.9 $1/$1_src.cpp -L /usr/include/boost/python -lboost_python3 -lboost_numpy39 -o $1.so

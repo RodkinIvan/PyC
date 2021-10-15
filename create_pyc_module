@@ -1,0 +1,9 @@
+mkdir $1
+file=$1/$1_src.cpp
+touch $file
+
+echo "#include <stdpyc.h>
+BOOST_PYTHON_MODULE($1){
+
+}
+" > $file
