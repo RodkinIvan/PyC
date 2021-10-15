@@ -10,7 +10,7 @@ Anywhere:
 create_pyc_module <module_name>
 $EDITOR <module_name>/<module_name>_src.cpp
 ```
-Then, import your c++ functions or classes and wrap them according to [boost::python API](https://www.boost.org/doc/libs/1_76_0/libs/python/doc/html/tutorial/index.html) 
+Then, import your c++ functions or classes and wrap them according to [boost::python API](https://www.boost.org/doc/libs/1_76_0/libs/python/doc/html/tutorial/index.html) or a small the most necessary part in `small_guide.md`. 
 
 Then, compile it, using:
 ```shell

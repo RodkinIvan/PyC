@@ -36,8 +36,7 @@ template<typename T>
 inline
 std::vector<std::vector<T>> to_2d_vector(const array& iterable) {
     std::vector<std::vector<T>> ans;
-    for (auto iter = iterator<array>(iterable);
-    iter != iterator<array>(); ++iter) {
+    for (auto iter = iterator<array>(iterable); iter != iterator<array>(); ++iter) {
         ans.push_back(to_std_vector<T>(*iter));
     }
     return ans;
