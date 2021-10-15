@@ -14,7 +14,7 @@ Then, import your c++ functions or classes and wrap them according to [boost::py
 
 Then, compile it, using:
 ```shell
-compile_pyc_module <module_name>/home/ivan/CLionProjects/pyc
+compile_pyc_module <module_name>
 ```
 This command will create the `<module_name>.so` file, which acts like real python module
 ## Usage
